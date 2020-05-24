@@ -39,10 +39,11 @@ from_email = Email("EMAIL FROM")
 ```
 pip install -r publisher/requirements.txt
 pip install -r consumer/requirements.txt
+cd book-store && composer install
 ```
 ## Running Application
 ```
-Running book-strore on apache/nginx or php artisan serve
+Running book-store on apache/nginx or php artisan serve
 Running Publisher python main.py
 Running Consumer python main.py
 ```
